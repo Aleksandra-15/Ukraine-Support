@@ -1,0 +1,17 @@
+@import"./components/header";
+@import"./components/information";
+@import"./components/promo";
+@import"./components/partials";
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

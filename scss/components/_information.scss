@@ -1,0 +1,112 @@
+.information {
+    background-color: black;
+    position: relative;
+    padding: 20px 0 670px 0;
+    &-titel {
+        margin: 0;
+        color: #ffd76e;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    &-text {
+        display: flex;
+        /* margin-left: 158px; */
+        color: #fff;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .fursname {
+        color: #fff;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+      }
+      &-blocks-one {
+        position: absolute;
+        left: 45%;
+        top: 361px;
+        z-index: 3;
+      }
+     &-blocks-two {
+        position: absolute;
+        left: 32%;
+        top: 650px;
+        z-index: 3;
+      }
+    &-blocks-three {
+        position: absolute;
+        bottom: 0px;
+        right: 40%;
+        z-index: 3;
+      }
+    &-blocks-forh {
+        position: absolute;
+        right: 23%;
+        bottom: 216px;
+        z-index: 3;
+      }
+      .line-yellow {
+        border: 2px solid #fff;
+        width: 178.9px;
+        height: 340.934px;
+        transform: rotate(84deg);
+        position: absolute;
+        top: 413px;
+        left: -61px;
+      }
+      .line-white {
+        border: 2px solid #ffd76e;
+        width: 247.5px;
+        height: 340.934px;
+        transform: rotate(348deg);
+        position: absolute;
+        left: -251px;
+        top: 338px;
+      }
+      .line-people-yellow {
+        border: 2px solid #ffd76e;
+        width: 334px;
+        height: 508px;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 350px;
+        left: 35%;
+        z-index: 1;
+      }
+      .line-people-white {
+        border: 2px solid #fff;
+        width: 248px;
+        height: 499px;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 48%;
+        top: 525px;
+      }
+      &-sub-subtitel {
+        color: #ffd76e;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: end;
+        position: absolute;
+        right: 24%;
+        top: 438px;
+      }
+  }
+
+  
