@@ -1,6 +1,6 @@
 .promo {
     background: url(../../img/promo-img.png) center/cover no-repeat;
-    padding: 24px 0 10px 0;
+    padding: 120px 0 10px 0;
     height: 1000px;
     &-titel {
        margin: 0;
@@ -57,10 +57,12 @@
         font-weight: 100;
         line-height: normal;
          text-align: center;
-       margin-left: 50% auto;
+       margin: 13px;
       }
   & i{
     margin-left: 50%;
   }
-      
+      &__clik{
+        margin-top: 220px;
+      }
   }
