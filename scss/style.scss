@@ -1,8 +1,11 @@
+
 @import "./utils/color";
+@import "./utils/mixin";
 @import"./components/header";
 @import"./components/information";
 @import"./components/promo";
 @import"./components/partials";
+@import "./components/about";
 .container {
   width: 1140px;
   margin: 0 auto;

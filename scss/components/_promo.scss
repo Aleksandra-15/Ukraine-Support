@@ -30,21 +30,8 @@
         font-weight: 400;
         line-height: normal;
       }
-    &-btn {
- 
-        color: #000;
-        font-family: Inter;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border-radius: 10px;
-        background: #ffd76e;
-        width: 199.863px;
-        height: 60px;
-        border: 0;
-        cursor: pointer;
-        transition: 2s all;
+      &-btn{
+        @include button();
       }
     &-btn:hover {
         transform: rotate(360deg);

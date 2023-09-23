@@ -1,0 +1,44 @@
+.about {
+  background: #050404;
+ position: relative;
+  padding: 36px 0 200px 0;
+  &__blocks {
+    display: flex;
+    justify-content: space-around;
+   
+    text-align: justify
+  }
+  &__titel {
+    @include title();
+  }
+  &__desc {
+    @include desc();
+    text-align: justify;
+  }
+  &__btn {
+    @include button();
+    position: absolute;
+    right: 10%;
+    margin-top: 120px;
+  }
+  &__line-people-yellow {
+    border: 2px solid #ffd76e;
+    width: 247.547px;
+    height: 369.028px;
+    transform: rotate(-10.004deg);
+    position: absolute;
+    right: 415px;
+    top: 15%;
+    z-index: 1;
+  }
+  &__line-people-white {
+    border: 2px solid #fff;
+    width: 178.9px;
+    height: 340.934px;
+    transform: rotate(-100.004deg);
+    position: absolute;
+    right:-8%;
+    bottom: -350px;
+    z-index: 20;
+  }
+}
