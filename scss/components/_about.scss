@@ -1,5 +1,5 @@
 .about {
-  background: #050404;
+  background: $color_1;
  position: relative;
   padding: 36px 0 200px 0;
   &__blocks {
@@ -12,14 +12,14 @@
     @include title();
   }
   &__desc {
-    @include desc();
+    @include desc($color_2, 24px);
     text-align: justify;
   }
   &__btn {
     @include button();
     position: absolute;
     right: 10%;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   &__line-people-yellow {
     border: 2px solid #ffd76e;
@@ -27,8 +27,8 @@
     height: 369.028px;
     transform: rotate(-10.004deg);
     position: absolute;
-    right: 415px;
-    top: 15%;
+    right: 2%;
+    bottom: -270px;
     z-index: 1;
   }
   &__line-people-white {

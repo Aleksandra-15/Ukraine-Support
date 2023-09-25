@@ -1,4 +1,4 @@
-@mixin desc() {
+@mixin desc($color, $size) {
   color: $color_2;
   font-family: Inter;
   font-size: 24px;
