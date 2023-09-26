@@ -1,20 +1,47 @@
-.feature{
-  background: $color_1 ;
+.feature {
+  background: $color_1;
   margin: 0;
-  padding:40px 0 46px 0;
-    &__titel{
-        @include title();
-        margin:0;
-        text-align: center;
-    }
-    &__list{
-        margin-top: 40px;
-display: flex;
-align-items:center;
-justify-content: space-evenly;
-    }
-    &__text{
-@include desc($color_1, 32px);
-text-align: center;
-    }
+  padding: 40px 0 46px 0;
+  &__titel {
+    @include title();
+    margin: 0;
+    text-align: center;
+  }
+  &__list {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+
+    object-fit: cover;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__text:nth-child(1) {
+    @include desc($color_1, 32px);
+
+    text-align: center;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 395.177px;
+    height: 215.775px;
+    position: absolute;
+    bottom: 0;
+    left: 18.3%;
+    margin: 0;
+    opacity: 0.73;
+  }
+  &__text:nth-child(2) {
+    @include desc($color_1, 32px);
+
+    text-align: center;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 395.177px;
+    height: 215.775px;
+    position: absolute;
+    bottom: 0;
+    right: 15.7%;
+    margin: 0;
+    opacity: 0.73;
+  }
 }
