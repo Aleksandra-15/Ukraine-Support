@@ -4,7 +4,7 @@
     height: 1000px;
     &-titel {
        margin: 0;
-        color: #fff;
+        color: $color_2;
         font-family: Inter;
         font-size: 128px;
         font-style: normal;
@@ -13,7 +13,7 @@
       }
     &-subtitel {
     
-        color: #fff;
+        color: $color_2;
         font-family: Inter;
         font-size: 64px;
         font-style: normal;
@@ -22,7 +22,7 @@
       }
     &-text {
       
-        color: #fff;
+        color: $color_2;
         text-align: justify;
         font-family: Inter;
         font-size: 24px;
@@ -37,7 +37,7 @@
         transform: rotate(360deg);
       }
     &-subtext {
-        color: #fff;
+        color: $color_2;
         font-family: Inter;
         font-size: 24px;
         font-style: normal;

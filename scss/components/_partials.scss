@@ -1,16 +1,16 @@
 .partials{
 background:url(../img/prapor-Uk.png) center/cover no-repeat;
 
-&-overlay{
+&__overlay{
     background: rgba(255, 255, 255, 0.27);
 box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
 backdrop-filter: blur(4.5px);
 height:297px;
 }
-&-titel{
+&__titel{
     padding: 72px 0 0 0;
     margin-top: 0;
-    color: #000;
+    color: $color_1;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
@@ -18,8 +18,8 @@ font-weight: 800;
 text-align: center;
 line-height: normal;
 }
-&-text{
-    color: #000;
+&__text{
+    color: $color_1;
 text-align: center;
 font-family: Inter;
 font-size: 20px;

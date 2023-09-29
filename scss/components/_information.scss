@@ -4,7 +4,7 @@
   padding: 20px 0 75px 0;
   &-titel {
     margin: 0;
-    color: #ffd76e;
+    color: $color_3;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
@@ -15,7 +15,7 @@
   &-text {
     display: flex;
     /* margin-left: 158px; */
-    color: #fff;
+    color: $color_2;
     text-align: justify;
     font-family: Inter;
     font-size: 24px;
@@ -26,7 +26,7 @@
     justify-content: space-evenly;
   }
   .fursname {
-    color: #fff;
+    color: $color_2;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -35,7 +35,7 @@
     text-align: center;
   }
   &__line-people-yellow {
-    border: 2px solid #ffd76e;
+    border: 2px solid $color_3;
     width: 247.547px;
     height: 369.028px;
     transform: rotate(-10.004deg);
@@ -45,7 +45,7 @@
     z-index: 1;
   }
   &__line-people-white {
-    border: 2px solid #fff;
+    border: 2px solid $color_2;
     width: 178.9px;
     height: 340.934px;
     transform: rotate(-100.004deg);
@@ -54,7 +54,7 @@
     top: 597px;
   }
   &-sub-subtitel {
-    color: #ffd76e;
+    color: $color_2;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -76,7 +76,7 @@
       display: inline-block;
       height: 493px;
       width: 334px;
-      border: 2px solid #ffd76e;
+      border: 2px solid $color_3;
       position: absolute;
       left: 20%;
       top: -28px;
@@ -89,7 +89,7 @@
       position: absolute;
       left: 33%;
       bottom: 95px;
-      border: 2px solid #fff;
+      border: 2px solid $color_2;
     }
   }
   &__name {

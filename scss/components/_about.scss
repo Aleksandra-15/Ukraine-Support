@@ -1,7 +1,17 @@
 .about {
   background: $color_1;
- position: relative;
+
   padding: 36px 0 200px 0;
+  .container{
+    position: relative;
+  }
+  &__box{
+    display: flex;
+ 
+    flex-direction: column;
+   align-items:flex-end;
+   max-width: 625px;
+  }
   &__blocks {
     display: flex;
     justify-content: space-around;
@@ -17,11 +27,10 @@
   }
   &__btn {
     @include button();
-    position: absolute;
-    right: 10%;
-    margin-top: 80px;
+   
   }
-  &__line-people-yellow {
+  &__line-people-yellow{
+  
     border: 2px solid #ffd76e;
     width: 247.547px;
     height: 369.028px;
@@ -32,7 +41,8 @@
     z-index: 1;
   }
   &__line-people-white {
-    border: 2px solid #fff;
+      
+    border: 2px solid $color_2;
     width: 178.9px;
     height: 340.934px;
     transform: rotate(-100.004deg);
