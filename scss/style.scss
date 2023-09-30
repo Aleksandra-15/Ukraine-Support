@@ -1,22 +1,11 @@
 
-@import "./utils/color";
-@import "./utils/mixin";
-@import"./components/header";
-@import"./components/information";
-@import"./components/promo";
-@import"./components/partials";
-@import "./components/about";
-@import "./components/feature";
-.container {
-  width: 1140px;
-  margin: 0 auto;
-}
-body {
-  margin: 0;
-}
-li {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+@import "./utils/color",
+ "./utils/mixin",
+ "./utils/vareables",
+"./components/header",
+"./components/information",
+"./components/promo",
+"./components/partials",
+"./components/about",
+ "./components/feature",
+ "./components/plays", "./components/achievement", "./components/fond", "./components/footer";

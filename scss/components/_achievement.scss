@@ -1,0 +1,25 @@
+.achievement {
+  &__titel {
+    @include title();
+    text-align: center;
+  }
+  &__desc:nth-child(1) {
+    @include desc($color_2, 20px);
+    width: 312px;
+    height: 436px;
+    border: 2px solid #ffd76e;
+  }
+  &__desc:nth-child(2){
+    @include desc($color_2, 20px);
+    width: 312px;
+    height: 164px;
+ padding: 22px 12px;
+    border: 2px solid #ffd76e;
+  }
+ 
+  &__blocks{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+  }
+}

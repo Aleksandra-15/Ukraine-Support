@@ -1,0 +1,37 @@
+.footer {
+  position: relative;
+  background: url(../img/footer.png) center/cover no-repeat;
+  padding: 50px 0;
+  &__titel {
+    @include title();
+    color: $color_2;
+    text-align: center;
+  }
+  &__list {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 61px;
+    right: 16%;
+  }
+  &__line-white {
+    width: 119.474px;
+    height: 229.95px;
+    transform: rotate(-144.457deg);
+    border: 2px solid $color_2;
+    position: absolute;
+    bottom: -150px;
+    left: 55%;
+  }
+  &__line-yellow {
+    width: 166.964px;
+    height: 246.446px;
+    transform: rotate(-54.457deg);
+    border: 2px solid $color_3;
+    position: absolute;
+    bottom: -180px;
+    left: 45%;
+  }
+}

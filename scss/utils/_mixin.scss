@@ -1,7 +1,7 @@
 @mixin desc($color, $size) {
-  color: $color_2;
+  color: $color;
   font-family: Inter;
-  font-size: 24px;
+  font-size: $size;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

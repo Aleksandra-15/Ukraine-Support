@@ -7,8 +7,10 @@
     margin: 0;
     text-align: center;
   }
-  &__list {
+  &__item {
     position: relative;
+  }
+  &__list {
     margin-top: 40px;
     display: flex;
 
@@ -18,7 +20,9 @@
   }
   &__text:nth-child(1) {
     @include desc($color_1, 32px);
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: center;
     border-radius: 32px;
     background: rgba(255, 255, 255, 0.9);
@@ -29,10 +33,13 @@
     left: 18.3%;
     margin: 0;
     opacity: 0.73;
+    padding: 88px 40px;
   }
   &__text:nth-child(2) {
     @include desc($color_1, 32px);
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: center;
     border-radius: 32px;
     background: rgba(255, 255, 255, 0.9);
@@ -43,5 +50,6 @@
     right: 15.7%;
     margin: 0;
     opacity: 0.73;
+    padding: 88px 40px;
   }
 }
