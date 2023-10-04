@@ -1,11 +1,5 @@
-
-@import "./utils/color",
- "./utils/mixin",
- "./utils/vareables",
-"./components/header",
-"./components/information",
-"./components/promo",
-"./components/partials",
-"./components/about",
- "./components/feature",
- "./components/plays", "./components/achievement", "./components/fond", "./components/footer";
+@import "./utils/color", "./utils/mixin", "./utils/vareables",
+  "./components/header", "./components/information", "./components/promo",
+  "./components/partials", "./components/about", "./components/feature",
+  "./components/plays", "./components/achievement", "./components/fond",
+  "./components/footer", "./components/partial";

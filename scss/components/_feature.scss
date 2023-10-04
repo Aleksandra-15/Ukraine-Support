@@ -33,7 +33,7 @@
     left: 18.3%;
     margin: 0;
     opacity: 0.73;
-    padding: 88px 40px;
+    padding: 88px 10px;
   }
   &__text:nth-child(2) {
     @include desc($color_1, 32px);
@@ -50,6 +50,6 @@
     right: 15.7%;
     margin: 0;
     opacity: 0.73;
-    padding: 88px 40px;
+    padding: 88px 15px;
   }
 }

@@ -1,0 +1,11 @@
+.header {
+  &__modal {
+    width: 700px;
+    height: 470px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  &__modal-titel{
+    @include desc($color_1, 32px)
+  }
+}
